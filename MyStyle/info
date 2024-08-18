@@ -1,0 +1,24 @@
+#
+# This file contains information about the style.
+# It is completely optional.
+# 
+
+
+# A short one line description of the style
+#
+summary: Mein Style fuer eTrex10
+
+# Version of the style itself
+#
+version=1.5
+
+#base-style=contours_ft
+#base-style=location
+#base-style=landuse
+#base-style=waters
+
+# A longer description of the style.
+description {
+Style ist fuer die Nutzung auf dem Schwarz/Weiss Display des eTrex10
+optimiert.
+}

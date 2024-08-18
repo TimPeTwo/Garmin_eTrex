@@ -1,0 +1,29 @@
+# Orte, Namen
+
+place=city {
+    add mkgmap:label:1='${name}';
+    set mkgmap:region='${place}';
+} [0x0700 level 4]
+
+place=town  {
+    add mkgmap:label:1='${name}';
+    set mkgmap:region='${place}';
+} [0x0800 level 3]
+
+
+place=suburb   { 
+    add mkgmap:label:1='${name}';
+    set mkgmap:region='${place}';
+} [0x0a00 level 2]
+
+
+place=village  {
+    add mkgmap:label:1='${name}';
+    set mkgmap:region='${place}';
+} [0x0900 level 2]
+
+place=hamlet  {
+    add mkgmap:label:1='${name}';
+    set mkgmap:region='${place}' ;
+} [0x0b00 level 2]
+
