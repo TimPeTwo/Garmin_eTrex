@@ -35,11 +35,20 @@ Sobald die Abfrag in [https://overpass-turbo.eu/](Overpass Turbo) die gewünscht
 In JSOM wird "Datei->Daten herunterladen->Von Overpass-API herunterladen" verwedet.  
 [Download from Overpass API (expert mode)](https://josm.openstreetmap.de/wiki/Help/Action/Download) [Expert mode](https://josm.openstreetmap.de/wiki/Help/ExpertMode)
 
-Bei mir speicher ich die Datei als '\\wsl.localhost\Ubuntu\home\timpe\Garmin_eTrex\export.osm' .
+Bei mir speichere ich die Datei unter '\\wsl.localhost\Ubuntu\home\timpe\Garmin_eTrex\export.osm' .
 
-Reihenfolge der Aufrufe
-* ./MyZipStyle.sh
-* ./MySplitter.sh
-* ./MyConvert.sh
+## Vorbereiten ( einmalig nach git clone )
+### Linux
+* chmod +x ./My*
+* dos2unix ./My*
+### Windows
+* Set-ExecutionPolicy Unrestricted ( imn einer elevated shell )
+
+## Reihenfolge der Aufrufe 
+### Linux
+* ./MyZipStyle.sh ( Wenn die Garmin Syles verändert wurden )
+* ./MySplitter.sh ( Fällt weg. )
+* ./MyConvert.sh ( immer wenn es eine neue export.osm gibt )
 * ./MyRename.sh
-* 
+### Windows
+* .\MyMove.ps1
