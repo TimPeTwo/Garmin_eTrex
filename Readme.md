@@ -49,6 +49,6 @@ Bei mir speichere ich die Datei unter '\\wsl.localhost\Ubuntu\home\timpe\Garmin_
 * ./MyZipStyle.sh ( Wenn die Garmin Syles verändert wurden )
 * ./MySplitter.sh ( Fällt weg. )
 * ./MyConvert.sh ( immer wenn es eine neue export.osm gibt )
-* ./MyRename.sh
+    
 ### Windows
 * .\MyMove.ps1
