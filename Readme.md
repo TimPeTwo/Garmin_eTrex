@@ -6,7 +6,7 @@ Benötigte Software
 * josm
 * Ein Editor für die Symbole auf der Garmin Karte
 
-Die Datenabfrage wird in der Overpass QL Sprache gestellt. 
+Die Datenabfrage wird in der Overpass QL Sprache gestellt. Unter File->Download Data
 ```
 // @name CycleWaysAndPlaces
 
