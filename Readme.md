@@ -6,6 +6,9 @@ Benötigte Software
 * josm
 * Ein Editor für die Symbole auf der Garmin Karte
 
+Installation unter Ubuntu
+apt-get install mkgmap mkgmap-spliter mkgmapgui josm zip
+
 Die Datenabfrage wird in der Overpass QL Sprache gestellt. Mit den Online Tool [https://overpass-turbo.eu/](Overpass Turbo) 
 Z.B.:
 ```
