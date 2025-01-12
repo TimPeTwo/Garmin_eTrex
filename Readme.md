@@ -6,7 +6,8 @@ Benötigte Software
 * josm
 * Ein Editor für die Symbole auf der Garmin Karte
 
-Die Datenabfrage wird in der Overpass QL Sprache gestellt. Unter File->Download Data
+Die Datenabfrage wird in der Overpass QL Sprache gestellt. Mit den Online Tool [https://overpass-turbo.eu/](Overpass Turbo) 
+Z.B.:
 ```
 // @name CycleWaysAndPlaces
 
@@ -30,12 +31,12 @@ out body;
 >;
 out skel qt;
 ```
+Die Daten werden über Export->Data->raw OSM Data->download heruntergeladen und als Export.osm gespeichert.
 
-Sobald die Abfrag in [https://overpass-turbo.eu/](Overpass Turbo) die gewünschten Daten liefert, kann der Ausdruck in JOSM verwendet werden. 
-In JSOM wird "Datei->Daten herunterladen->Von Overpass-API herunterladen" verwedet.  
+Alternativ mit JSOM: Dann wird "Datei->Daten herunterladen->Von Overpass-API herunterladen" verwedet.  
 [Download from Overpass API (expert mode)](https://josm.openstreetmap.de/wiki/Help/Action/Download) [Expert mode](https://josm.openstreetmap.de/wiki/Help/ExpertMode)
 
-Bei mir speichere ich die Datei unter '\\wsl.localhost\Ubuntu\home\timpe\Garmin_eTrex\export.osm' .
+Auf meinen Windows Rechmer speichere ich die Datei unter '\\wsl.localhost\Ubuntu\home\timpe\Garmin_eTrex\export.osm' .
 
 ## Vorbereiten ( einmalig nach git clone )
 ### Linux
